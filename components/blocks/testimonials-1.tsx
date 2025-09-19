@@ -27,9 +27,6 @@ export function TestimonialsSection({
       <div className="container px-4">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-gray-800/80 backdrop-blur-sm px-3 py-1 text-sm text-gray-300">
-              {badgeText}
-            </div>
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-white">
               {title}
             </h2>

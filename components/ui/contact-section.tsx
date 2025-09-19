@@ -7,7 +7,7 @@ export const ContactSection = () => {
     <div id="contact" className="py-8 md:py-12 relative z-50">
       <div className="container mx-auto px-4 relative z-50">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-r from-emerald-300/20 to-sky-400/20 backdrop-blur-sm text-gray-900 py-6 px-8 rounded-3xl text-center md:text-left border border-emerald-300/30">
+          <div className="bg-white/5 backdrop-blur-md text-white py-6 px-8 rounded-3xl text-center md:text-left border border-white/10">
             <div
               className="absolute inset-0 opacity-10 -z-10 pointer-events-none rounded-3xl"
               style={{
@@ -19,11 +19,11 @@ export const ContactSection = () => {
                 <h2 className="font-serif text-xl md:text-2xl text-white">
                   Let&apos;s create something amazing together
                 </h2>
-                <p className="text-sm mt-2 text-gray-200">
+                <p className="text-sm mt-2 text-gray-300">
                   I&apos;m always open to discussing product design work or
                   partnerships. Let&apos;s create something amazing together.
                 </p>
-                <p className="text-sm mt-1 text-gray-200">
+                <p className="text-sm mt-1 text-gray-300">
                   I&apos;d like to connect with you.
                 </p>
               </div>
@@ -31,7 +31,7 @@ export const ContactSection = () => {
                   <a
                   href="mailto:abhishek23main@gmail.com?subject=Contact%20Request&body=Hello%2C%20I%20would%20like%20to%20connect%20with%20you."
                   role="button"
-                  className="relative z-50 text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:bg-gray-800 transition-colors"
+                  className="relative z-50 text-white bg-white/10 hover:bg-white/20 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-white/20 hover:border-white/30 transition-all duration-300"
                   >
                   <span className="font-semibold">Contact Me</span>
                   <ArrowUpRight className="size-4" />

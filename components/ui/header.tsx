@@ -18,7 +18,7 @@ export const Header = () => {
         const target = document.querySelector(href);
         if (target) {
           const headerHeight = 80; // Account for fixed header
-          const targetPosition = target.offsetTop - headerHeight;
+          const targetPosition = (target as HTMLElement).offsetTop - headerHeight;
           window.scrollTo({
             top: targetPosition,
             behavior: "smooth"

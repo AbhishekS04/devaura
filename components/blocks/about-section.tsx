@@ -89,10 +89,7 @@ export function AboutSection() {
         <div className="mt-12 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1 bg-black/40 backdrop-blur-md border-white/10">
-              <CardHeader
-                className="px-6 pt-6"
-                asChild={false as any}
-              >
+              <CardHeader className="px-6 pt-6">
                 <div>
                   <h3 className="text-lg font-semibold text-white">My Reads</h3>
                   <p className="text-sm text-gray-400">Explore the books shaping my perspectives.</p>

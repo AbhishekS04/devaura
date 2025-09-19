@@ -2,10 +2,10 @@
 
 import { HeroGeometric } from "@/components/ui/shape-landing-hero"
 import { OutlineText } from "@/components/ui/outline-text"
-import { HoverSliderDemo } from "@/components/demo/hover-slider-demo"
-import { TestimonialsDemo } from "@/components/demo/testimonials-demo"
+import { WorksSlider } from "@/components/demo/works-slider"
+import { FeedbackSection } from "@/components/demo/feedback-section"
 import { Header } from "@/components/ui/header"
-import BentoGridSecondDemo from "@/components/demo/bento-grid-demo-2"
+import AboutMeGrid from "@/components/demo/about-me-grid"
 import { ContactSection } from "@/components/ui/contact-section"
 import { Footer } from "@/components/ui/footer"
 
@@ -24,32 +24,32 @@ export default function Home() {
       </section>
       
       {/* Works Section */}
-      <section id="works" className="bg-black py-16 scroll-mt-24">
-        <div className="container mx-auto px-4 text-center mb-8">
+      <section id="works" className="bg-black py-12 md:py-16 scroll-mt-24">
+        <div className="container mx-auto px-4 text-center mb-6 md:mb-8">
           <OutlineText className="text-white text-[2rem] md:text-[3rem]">My Works</OutlineText>
         </div>
         <div className="container mx-auto px-4">
-          <HoverSliderDemo />
+          <WorksSlider />
         </div>
       </section>
 
       {/* Testimonials Section */}
-      <section id="feedback" className="bg-black py-16 scroll-mt-24">
-        <div className="container mx-auto px-4 text-center mb-8">
+      <section id="feedback" className="bg-black py-12 md:py-16 scroll-mt-24">
+        <div className="container mx-auto px-4 text-center mb-6 md:mb-8">
           <OutlineText className="text-white text-[2rem] md:text-[3rem]">Feedback</OutlineText>
         </div>
         <div className="container mx-auto px-4">
-          <TestimonialsDemo />
+          <FeedbackSection />
         </div>
       </section>
 
       {/* About Me heading with Bento Grid */}
-      <section id="about" className="bg-black py-16 scroll-mt-24">
-        <div className="container mx-auto px-4 text-center mb-8">
+      <section id="about" className="bg-black py-12 md:py-16 scroll-mt-24">
+        <div className="container mx-auto px-4 text-center mb-6 md:mb-8">
           <OutlineText className="text-white text-[2rem] md:text-[3rem]">About Me</OutlineText>
         </div>
         <div className="container mx-auto px-4">
-          <BentoGridSecondDemo />
+          <AboutMeGrid />
         </div>
       </section>
 

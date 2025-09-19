@@ -45,7 +45,7 @@ interface DisplayCardsProps {
   cards?: DisplayCardProps[];
 }
 
-export default function DisplayCards({ cards }: DisplayCardsProps) {
+export default function StackedCards({ cards }: DisplayCardsProps) {
   const defaultCards = [
     {
       className: "[grid-area:stack] hover:-translate-y-6 sm:hover:-translate-y-8 lg:hover:-translate-y-6 sm:hover:-translate-y-8 lg:hover:-translate-y-10 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration:700 hover:grayscale-0 before:left-0 before:top-0",
@@ -105,7 +105,7 @@ export function DisplayCardsDemo() {
   return (
     <div className="flex min-h-[300px] sm:min-h-[350px] lg:min-h-[400px] w-full items-center justify-center py-10 sm:py-16 lg:py-20">
       <div className="w-full max-w-sm sm:max-w-2xl lg:max-w-3xl">
-        <DisplayCards cards={defaultCards} />
+        <StackedCards cards={defaultCards} />
       </div>
     </div>
   );

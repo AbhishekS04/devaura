@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export const ContactSection = () => {
   return (
-    <div id="contact" className="py-12 relative z-50">
+    <div id="contact" className="py-8 md:py-12 relative z-50">
       <div className="container mx-auto px-4 relative z-50">
         <div className="max-w-4xl mx-auto">
           <div className="bg-gradient-to-r from-emerald-300/20 to-sky-400/20 backdrop-blur-sm text-gray-900 py-6 px-8 rounded-3xl text-center md:text-left border border-emerald-300/30">

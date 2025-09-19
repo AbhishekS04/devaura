@@ -19,6 +19,6 @@ const demoTestimonials = [
   },
 ]
 
-export function TestimonialsDemo() {
+export function FeedbackSection() {
   return <TestimonialsSection testimonials={demoTestimonials} />
 }

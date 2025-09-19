@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 
-export default function CardDemo() {
+export default function BackgroundOverlayCard() {
   return (
     <div className="w-full max-w-sm lg:max-w-md">
       <div

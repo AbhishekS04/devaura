@@ -24,7 +24,7 @@ export function TestimonialsSection({
 }: TestimonialsSectionProps) {
   return (
     <div className="w-full">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <div className="inline-block rounded-lg bg-gray-800/80 backdrop-blur-sm px-3 py-1 text-sm text-gray-300">
@@ -38,7 +38,7 @@ export function TestimonialsSection({
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl gap-6 py-8 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-5xl gap-6 py-6 lg:grid-cols-2">
           {testimonials.map((t, i) => {
             const stars = typeof t.rating === "number" ? t.rating : 0;
             return (

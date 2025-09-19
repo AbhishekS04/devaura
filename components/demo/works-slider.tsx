@@ -54,7 +54,7 @@ import { HoverSlider,
   },
 ]
 
-export function HoverSliderDemo () {
+export function WorksSlider() {
     return (
         <HoverSlider className="min-h-[60vh] bg-black text-white py-8 px-4 md:px-6">
       {/* <h3 className="mb-8 text-gray-400 text-xs font-medium capitalize tracking-wide text-center">

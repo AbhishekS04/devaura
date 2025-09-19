@@ -50,7 +50,7 @@ export const Footer = () => {
     <footer className="relative z-10">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="border-t border-white/15 py-6 text-sm flex flex-col items-center gap-8 md:flex-row md:justify-between">
+          <div className="border-t border-white/15 py-4 md:py-6 text-sm flex flex-col items-center gap-6 md:gap-8 md:flex-row md:justify-between">
             <div className="text-white/40">&copy; 2025. All rights reserved.</div>
             <nav className="flex flex-col items-center gap-8 md:flex-row">
               {footerLinks.map((link) => (

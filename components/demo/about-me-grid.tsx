@@ -7,13 +7,13 @@ import {
   PenTool,
   Table,
 } from "lucide-react";
-import CardDemo from "@/components/ui/cards-demo-1";
+import BackgroundOverlayCard from "@/components/ui/background-overlay-card";
 
-export default function BentoGridSecondDemo() {
+export default function AboutMeGrid() {
   return (
     <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
       {items.map((item, i) => {
-        // Replace "The Art of Design" card (index 2) with CardDemo
+        // Replace "The Art of Design" card (index 2) with BackgroundOverlayCard
         if (i === 2) {
           return (
             <div
